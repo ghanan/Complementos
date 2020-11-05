@@ -3,16 +3,15 @@
 complementos = []
 productos = []
 
-def lee_complementos():
-    pass
-
-def lee_productos():
-    pass
+def lee_ficheros():
+    global complementos, productos
+    complementos=[l.split('|') for l in open('complemento.txt').read().splitlines()]
+    productos=[l.split('|') for l in open('producto.txt').read().splitlines()]
 
 def main():
     global complementos, productos
-    lee_complementos()
-    lee_productos()
+    lee_ficheros()
+    print(productos)
 
 if __name__ == '__main__':
     main()

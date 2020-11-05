@@ -1,0 +1,65 @@
+Vitamina_A|ug|800|Retinol
+Vitamina_B1|mg|1.1|Tiamina
+Vitamina_B2|mg|1.6|Rivoflavina
+Vitamina_B3|mg|16|Niacina
+Vitamina_B5|mg|6|Ácido Pantotéico
+Vitamina_B6|mg|1.4|Piridoxina
+Vitamina_B8|ug|50|Biotina
+Vitamina_B9|ug|200|Ácido Fólico
+Vitamina_B12|ug|2.5|Cianocobalamina
+Vitamina_C|mg|80|Ácido Ascórbico
+Vitamina_D3|ug|5|Calciferol - 75ug
+Vitamina_E|mg|12|alfa-Tocoferol - gamma-Tocoferol
+Vitamina_K1|ug|75|Filoquinona
+Vitamina_K2|ug|75|Menaquinona
+Alanina|||L-beta-Alanina
+Apigenina|mg||
+Arginina|||L-Arginina
+Betacaroteno|||
+Bioperine|mg||
+Boro|mg||
+Calcio|mg|500|
+Cisteína|mg||N-Acetil-Cisteína
+Cobre|mg|1??|
+Colágeno|||
+Colina|||
+Condritina|||Sulfato
+Cromo|ug|40|
+Fósforo|||
+Glicina|||
+Glucosamina|||Sulfato
+Glutamina|||L-Glutamina
+Hialuronato|||Sódico
+Hialurónico|||Ácido
+Hesperidina|mg||
+Hierro|mg|10|
+Histidina|ug|150|L-Histidina
+IsoLeucina|||L-IsoLeucina
+Leucina|||L-Leucina
+Lisina|||L-Lisina
+Luteina|mg||
+Luteolina|||
+Licopeno|mg||
+Magnesio|mg|375|
+Manganeso|mg|2|
+Metil-Sulfonil-Metano
+Metionina|||
+Molibdeno|ug|50|
+OptiBerry|mg||
+Orlitina|||L-Orlitina HCI
+PQQ|mg||
+Prolina|||L-Prolina
+Q10|||
+Quercitina|mg||
+Resveratrol|mg||
+Rutina|mg||
+Selenio|ug|55|
+Silicio|||
+Taurina|mg||
+Tocotrienoles|mg||
+Treonina|||L-Treonina
+Triptófano|||L-Triptófano
+Valina|||L-Valina
+Yodo|ug||
+Zeaxantina|mg||
+Zinc|mg|10|15?
