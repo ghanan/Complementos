@@ -50,7 +50,7 @@ Orlitina|||L-Orlitina HCI
 PQQ|mg||
 Prolina|||L-Prolina
 Q10|||
-Quercitina|mg||
+Quercetina|mg||
 Resveratrol|mg||
 Rutina|mg||
 Selenio|ug|55|
