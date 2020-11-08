@@ -10,8 +10,7 @@ Vitamina_B12|ug|2.5|Cianocobalamina
 Vitamina_C|mg|80|Ácido Ascórbico
 Vitamina_D3|ug|5|Calciferol - 75ug
 Vitamina_E|mg|12|alfa-Tocoferol - gamma-Tocoferol
-Vitamina_K1|ug|75|Filoquinona
-Vitamina_K2|ug|75|Menaquinona
+Vitamina_K|ug|75|Filoquinona
 Alanina|||L-beta-Alanina
 Apigenina|mg||
 Arginina|||L-Arginina
@@ -60,6 +59,6 @@ Tocotrienoles|mg||
 Treonina|||L-Treonina
 Triptófano|||L-Triptófano
 Valina|||L-Valina
-Yodo|ug||
+Yodo|ug|150|
 Zeaxantina|mg||
 Zinc|mg|10|15?

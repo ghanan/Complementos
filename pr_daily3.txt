@@ -11,7 +11,7 @@ Vitamina_B12|100
 Vitamina_C|100
 Vitamina_D3|8.32
 Vitamina_E|56.3
-Vitamina_K1|46
+Vitamina_K|46
 Apigenina|8
 Bioperine|1.7
 Boro|0.3

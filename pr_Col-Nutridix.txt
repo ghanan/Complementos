@@ -1,0 +1,8 @@
+Col-Nutridix|Nutridix|Col-Nutridix|18|60
+Vitamina_A|800
+Vitamina_B12|2.5
+Vitamina_C|80
+Hialurónico|28.5
+Colágeno|370
+Q10|30
+Zinc|10

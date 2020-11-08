@@ -1,0 +1,3 @@
+Magn-Sust|Sustancias Puras|Magn-Sust|15|180
+Calcio|96
+Magnesio|100
