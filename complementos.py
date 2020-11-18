@@ -41,6 +41,7 @@ def parametros_correctos(param):
         if not argv[l] in ['0.5', '1', '1.5', '2', '2.5', '3']:
             exit('Error: cantidad ' + argv[l] + ' en producto ' + argv[l-1])
             return False
+    return True
 
 def ordena_elegidos():
     global lis_elegidos
@@ -48,6 +49,7 @@ def ordena_elegidos():
     for l in lis_elegidos:
         for p in productos:
             if l[0] == p[0][0]: _l.append([l[0],len(p)])
+    lis_elegidos = [l[0] for l in sorted(_l, key=lambda i: i[1], reverse=True)]
 
 def rellena_listas_trabajo(param):
     global lis_produc, lis_elegidos
