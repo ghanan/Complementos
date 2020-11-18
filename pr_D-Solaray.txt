@@ -1,4 +1,4 @@
-D-MK7-Solaray|Solaray|D-MK7-Solaray|15|60
+D-MK7-Solaray|Solaray|D3-MK7-Solaray|15|60
 Vitamina_D3|125
 Vitamina_K|50
 Calcio|110

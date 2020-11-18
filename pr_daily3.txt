@@ -1,4 +1,4 @@
-Daily_3|SuperSmart|Daily 3|50|60
+Daily_3|SuperSmart|Daily_3|50|60
 Vitamina_A|25
 Vitamina_B1|5
 Vitamina_B2|6

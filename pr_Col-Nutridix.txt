@@ -1,4 +1,4 @@
-Col-Nutridix|Nutridix|Col-Nutridix|18|60
+Col-Nutridix|Nutridix|Colageno-Nutridix|18|60
 Vitamina_A|800
 Vitamina_B12|2.5
 Vitamina_C|80
