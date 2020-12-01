@@ -50,6 +50,7 @@ def ordena_elegidos():
         for p in productos:
             if l[0] == p[0][0]: _l.append([l[0],len(p)])
     lis_elegidos = [l[0] for l in sorted(_l, key=lambda i: i[1], reverse=True)]
+    print(lis_produc)
 
 def rellena_listas_trabajo(param):
     global lis_produc, lis_elegidos
