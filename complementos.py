@@ -7,10 +7,12 @@ comp_nombres = []
 productos = []
 lis_produc = []
 lis_elegidos = []
+tabla = []
 
 def incorpora_producto(p):
     global productos
     producto = [l.split('|') for l in open(p).read().splitlines()]
+    producto[0].append(p)
     identificador = producto[0]
     for complemento in producto[1:]:
         if not complemento[0] in comp_nombres:
@@ -50,18 +52,57 @@ def ordena_elegidos():
         for p in productos:
             if l[0] == p[0][0]: _l.append([l[0],len(p)])
     lis_elegidos = [l[0] for l in sorted(_l, key=lambda i: i[1], reverse=True)]
-    print(lis_produc)
 
 def rellena_listas_trabajo(param):
     global lis_produc, lis_elegidos
     for p in productos: lis_produc.append(p[0])
     for l in range(1, len(argv), 2):
         lis_elegidos.append([argv[l]])
-    print(lis_elegidos)
+    # ~ print(lis_elegidos)
+
+def componentes(p):
+    for c in productos:
+        if p == c[0][0]:
+            return c[1:]
+
+def actualiza_ya_anadido(y, comp):
+    global tabla
+    for c in comp:
+        if c[0] == y: cantidad = c[1]
+    for i in range(1, len(tabla)):
+        if tabla[i][0] == y:
+            if y in [p[0] for p in comp]:
+                tabla[i].append(cantidad)
+            else:
+                tabla[i].append('0')
+
+def rellena_tabla():
+    global tabla
+    ''' Tabla:
+    ""    Daily_3 Leotron
+    Vit-A 25      22
+    '''
+    tabla.append([''])
+    np = 1
+    for _p in lis_elegidos:
+        tabla[0].append(_p)
+        ya_anadidos = [pp[0] for pp in tabla[1:]]
+        prod_componentes = componentes(_p) # [['Vit-A', '25']...]
+        for y in ya_anadidos:
+            actualiza_ya_anadido(y, prod_componentes)
+        for prod in prod_componentes:
+            if not prod[0] in ya_anadidos:
+                linea = [prod[0]]
+                for _ in range(1,np): linea.append('0')
+                linea.append(prod[1])
+                tabla.append(linea)
+        np += 1
+    for l in tabla: print(l)
+
 
 def procesa(param):
     ordena_elegidos()
-    pass
+    rellena_tabla()
 
 def main():
     global complementos, productos
