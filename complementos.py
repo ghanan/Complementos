@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 from os import listdir
 from sys import argv
+import subprocess
 
+SALIDA = '/tmp/complementos-salida.csv'
 complementos = []
 comp_nombres = []
 productos = []
@@ -40,7 +42,7 @@ def parametros_correctos(param):
             exit('Error: producto ' + l[0] + ' desconocido')
             return False
     for l in range(2, len(argv), 2):
-        if not argv[l] in ['0.5', '1', '1.5', '2', '2.5', '3']:
+        if not argv[l] in ['0.5', '1', '1.5', '2', '2.5', '3', '4']:
             exit('Error: cantidad ' + argv[l] + ' en producto ' + argv[l-1])
             return False
     return True
@@ -66,6 +68,7 @@ def componentes(p):
             return c[1:]
 
 def actualiza_ya_anadido(y, comp):
+    # actualiza solo la fila del componente y
     global tabla
     for c in comp:
         if c[0] == y: cantidad = c[1]
@@ -97,12 +100,31 @@ def rellena_tabla():
                 linea.append(prod[1])
                 tabla.append(linea)
         np += 1
-    for l in tabla: print(l)
 
+def suma_cantidades():
+    global tabla
+    print(tabla[0])
+    tabla[0] += ['   Total','%','IDR','Unidad']
+    for c in tabla[1:]:
+        c.append(sum([float(i) for i in c[1:]]))
+        for cc in complementos:
+            if cc[0] == c[0]:
+                try: c.append(str(round(float(c[-1])*100/float(cc[2]),1))+'%')
+                except: c.append("")
+                c.append(cc[2])
+                c.append(cc[1])
 
 def procesa(param):
     ordena_elegidos()
     rellena_tabla()
+    suma_cantidades()
+    F = open(SALIDA, 'w')
+    for f in tabla:
+        F.writelines(';'.join([str(c) for c in f]))
+        F.write('\n')
+    F.close()
+    cmd = "/usr/lib/libreoffice/program/oosplash --calc " + SALIDA
+    returned_value = subprocess.call(cmd, shell=True)
 
 def main():
     global complementos, productos

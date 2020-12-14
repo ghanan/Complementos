@@ -1,3 +1,3 @@
 D-MK7-Super|SuperSmart|D3-MK7-SuperSmart|36|60
 Vitamina_D3|10
-Vitamina_K|90
+Vitamina_K1|90

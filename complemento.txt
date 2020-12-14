@@ -1,4 +1,4 @@
-Vitamina_A|ug|800|Retinol
+Vitamina_A|UI|2700|Retinol - beta-caroteno
 Vitamina_B1|mg|1.1|Tiamina
 Vitamina_B2|mg|1.6|Rivoflavina
 Vitamina_B3|mg|16|Niacina
@@ -8,9 +8,10 @@ Vitamina_B8|ug|50|Biotina
 Vitamina_B9|ug|200|Ácido Fólico
 Vitamina_B12|ug|2.5|Cianocobalamina
 Vitamina_C|mg|80|Ácido Ascórbico
-Vitamina_D3|ug|5|Calciferol - 75ug
-Vitamina_E|mg|12|alfa-Tocoferol - gamma-Tocoferol
-Vitamina_K|ug|75|Filoquinona
+Vitamina_D3|UI|2000|Calciferol - 75ug
+Vitamina_E|mg|11|alfa-Tocoferol - gamma-Tocoferol
+Vitamina_K1|ug|75|Filoquinona
+Vitamina_K2|ug|75|Menaquinona
 Alanina|||L-beta-Alanina
 Apigenina|mg||
 Arginina|||L-Arginina
@@ -39,11 +40,12 @@ Lisina|||L-Lisina
 Luteina|mg||
 Luteolina|||
 Licopeno|mg||
-Magnesio|mg|375|
+Magnesio|mg|380|
 Manganeso|mg|2|
 Metil-Sulfonil-Metano
 Metionina|||
 Molibdeno|ug|50|
+Nicotinamida|mg||
 OptiBerry|mg||
 Orlitina|||L-Orlitina HCI
 PQQ|mg||
@@ -61,4 +63,4 @@ Triptófano|||L-Triptófano
 Valina|||L-Valina
 Yodo|ug|150|
 Zeaxantina|mg||
-Zinc|mg|10|15?
+Zinc|mg|15|

@@ -9,7 +9,7 @@ Vitamina_B8|50
 Vitamina_B9|200
 Vitamina_B12|2.5
 Vitamina_C|100
-Vitamina_D3|5
+Vitamina_D3|200
 Vitamina_E|12
 Calcio|123
 Cobre|1
